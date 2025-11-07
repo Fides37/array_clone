@@ -12,6 +12,13 @@ public class GameManager : MonoBehaviour
     public Vector3 PlayerPos2;
     public Vector3 PlayerPos3;
 
+    public Vector3 playingPos;
+
+
+    public Vector3 cardOnePos;
+    public Vector3 cardTwoPos;
+    public Vector3 cardThreePos;
+
     public bool dealEnemy;
     bool dealPlayer;
 
@@ -50,6 +57,9 @@ public class GameManager : MonoBehaviour
         turnStates = TurnStates.Shuffle;
 
         canReveal = false;
+
+        
+
     }
 
     // Update is called once per frame

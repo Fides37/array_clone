@@ -169,7 +169,11 @@ MonoBehaviour:
   PlayerPos1: {x: -1.5, y: -3, z: 0}
   PlayerPos2: {x: 0, y: -3, z: 0}
   PlayerPos3: {x: 1.5, y: -3, z: 0}
-  dealEnemy: 0
+  playingPos: {x: 3.35, y: -1.3, z: 0}
+  cardOnePos: {x: 1.87, y: -2.99, z: 0}
+  cardTwoPos: {x: 3.37, y: -2.99, z: 0}
+  cardThreePos: {x: 4.87, y: -2.99, z: 0}
+  dealEnemy: 1
   EnemyPos1: {x: -1.5, y: 3, z: 0}
   EnemyPos2: {x: 0, y: 3, z: 0}
   EnemyPos3: {x: 1.5, y: 3, z: 0}
@@ -355,6 +359,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 382253175}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 382253179}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &382253173 stripped
 GameObject:
@@ -411,6 +418,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 382253172}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &382253179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382253173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &385557213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -510,6 +571,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 385557217}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 385557219}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &385557214 stripped
 Transform:
@@ -566,6 +630,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &385557219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385557215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &396760442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -665,6 +783,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 396760446}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 396760448}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &396760443 stripped
 Transform:
@@ -721,6 +842,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &396760448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396760444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &513884807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -820,6 +995,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 513884810}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 513884814}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &513884808 stripped
 GameObject:
@@ -876,6 +1054,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 513884807}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &513884814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513884808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,6 +1433,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 727998658}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 727998662}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &727998656 stripped
 GameObject:
@@ -1257,6 +1492,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 727998655}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &727998662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727998656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &755510967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1356,6 +1645,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 755510971}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 755510973}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &755510968 stripped
 Transform:
@@ -1412,6 +1704,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &755510973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755510969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1 &770791750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,6 +1960,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 996210088}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 996210090}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &996210085 stripped
 Transform:
@@ -1670,6 +2019,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &996210090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996210086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1026197818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1769,6 +2172,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1026197821}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026197825}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1026197819 stripped
 GameObject:
@@ -1825,6 +2231,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 1026197818}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1026197825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026197819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1038364422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1924,6 +2384,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1038364426}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1038364428}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1038364423 stripped
 Transform:
@@ -1980,6 +2443,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1038364428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038364424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1089433793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2079,6 +2596,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1089433797}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1089433799}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1089433794 stripped
 Transform:
@@ -2135,6 +2655,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1089433799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089433795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1 &1202974650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2302,6 +2876,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1244832887}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244832889}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1244832884 stripped
 Transform:
@@ -2358,6 +2935,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1244832889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244832885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1279400674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2457,6 +3088,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1279400678}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1279400680}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1279400675 stripped
 Transform:
@@ -2513,6 +3147,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1279400680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279400676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1346029313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2612,6 +3300,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1346029317}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346029319}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1346029314 stripped
 Transform:
@@ -2668,6 +3359,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1346029319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346029315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1392384535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2767,6 +3512,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1392384539}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1392384541}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1392384536 stripped
 Transform:
@@ -2823,6 +3571,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1392384541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392384537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1495747218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2922,6 +3724,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1495747221}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495747225}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1495747219 stripped
 GameObject:
@@ -2978,6 +3783,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 1495747218}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1495747225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495747219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1500473393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3077,6 +3936,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1500473396}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1500473401}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1500473394 stripped
 GameObject:
@@ -3133,6 +3995,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 1500473393}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1500473401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500473394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1592658990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3232,6 +4148,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1592658994}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592658996}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1592658991 stripped
 Transform:
@@ -3288,6 +4207,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1592658996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592658992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1655309813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3387,6 +4360,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1655309817}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1655309819}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1655309814 stripped
 Transform:
@@ -3443,6 +4419,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1655309819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655309815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1 &1733726678
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,6 +4656,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1767360826}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1767360828}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1767360823 stripped
 Transform:
@@ -3682,6 +4715,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1767360828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767360824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1802034133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3781,6 +4868,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1802034137}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802034139}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1802034134 stripped
 Transform:
@@ -3837,6 +4927,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1802034139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802034135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1859029902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3936,6 +5080,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1859029906}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1859029908}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!4 &1859029903 stripped
 Transform:
@@ -3992,6 +5139,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1859029908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859029904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1 &1933432780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,6 +5429,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1977095147}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1977095149}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1977095142 stripped
 GameObject:
@@ -4301,6 +5505,60 @@ MonoBehaviour:
   lerpObject: 0
   currentXPos: 0
   currentYPos: 0
+--- !u!114 &1977095149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977095142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &1999332865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4400,6 +5658,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1999332868}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1999332872}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1999332866 stripped
 GameObject:
@@ -4456,6 +5717,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 1999332865}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1999332872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999332866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1001 &6431659149365280709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4558,6 +5873,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6431659149365280715}
+    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6431659149365280717}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &6431659149365280710 stripped
 GameObject:
@@ -4631,6 +5949,60 @@ MonoBehaviour:
   lerpObject: 0
   currentXPos: 0
   currentYPos: 0
+--- !u!114 &6431659149365280717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431659149365280710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e57b4da9926dc14f882c22a51b44c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos1: {x: 0, y: 0, z: 0}
+  PlayerPos2: {x: 0, y: 0, z: 0}
+  PlayerPos3: {x: 0, y: 0, z: 0}
+  playingPos: {x: 0, y: 0, z: 0}
+  cardOnePos: {x: 0, y: 0, z: 0}
+  cardTwoPos: {x: 0, y: 0, z: 0}
+  cardThreePos: {x: 0, y: 0, z: 0}
+  dealEnemy: 0
+  EnemyPos1: {x: 0, y: 0, z: 0}
+  EnemyPos2: {x: 0, y: 0, z: 0}
+  EnemyPos3: {x: 0, y: 0, z: 0}
+  rockSprite: {fileID: 0}
+  scissorSprite: {fileID: 0}
+  paperSprite: {fileID: 0}
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playingPos1: {x: 0, y: 0}
+  playingPos2: {x: 0, y: 0}
+  playingPos3: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
