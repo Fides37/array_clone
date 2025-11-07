@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     public Vector3 EnemyPos3;
 
 
-    public GameObject [] deck = new GameObject [10];
+    public GameObject [] deck = new GameObject [24];
 
     private enum TurnStates
     {
@@ -99,6 +99,7 @@ public class GameManager : MonoBehaviour
             }
             else if (CardTwo.transform.position != EnemyPos2)
             {
+                Debug.Log("whatt");
                 CardTwo.GetComponent<CardMovement>().SetNewLerp(enemyPos2.x, enemyPos2.y);
             }
             else if (CardThree.transform.position != EnemyPos3)

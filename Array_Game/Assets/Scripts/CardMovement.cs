@@ -45,10 +45,10 @@ public class CardMovement : MonoBehaviour
 
         transform.position = new Vector2(currentXPos, currentYPos);
         
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SetNewLerp(3, 0);
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    SetNewLerp(3, 0);
+        //}
     }
 
 
