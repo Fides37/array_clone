@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     public Sprite scissorSprite;
     public Sprite paperSprite;
 
-
+    private bool canReveal;
 
     public GameObject [] deck = new GameObject [24];
 
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
     {
         turnStates = TurnStates.Shuffle;
 
-   
+        canReveal = false;
     }
 
     // Update is called once per frame
@@ -155,7 +155,12 @@ public class GameManager : MonoBehaviour
             {
                 CardThree = deck[x];
                 deck[x].transform.DOMove(PlayerPos3, 1f).SetDelay(3f).SetEase(Ease.OutExpo);
+             
             }
+
+          
+
+            
 
         }
 
@@ -163,18 +168,42 @@ public class GameManager : MonoBehaviour
         {
             if (CardOne.gameObject.tag == "Rock")
             {
-                Debug.Log("yo mana");
                 CardOne.GetComponent<SpriteRenderer>().sprite = rockSprite;
             }
+            else if (CardOne.gameObject.tag == "Scissor")
+            {
+                CardOne.GetComponent<SpriteRenderer>().sprite = scissorSprite;
+            }
+            else if (CardOne.gameObject.tag == "Paper")
+            {
+                CardOne.GetComponent<SpriteRenderer>().sprite = paperSprite;
+            }
+
             if (CardTwo.gameObject.tag == "Scissor")
             {
                 CardTwo.GetComponent<SpriteRenderer>().sprite = scissorSprite;
             }
+            else if (CardTwo.gameObject.tag == "Paper")
+            {
+                CardTwo.GetComponent<SpriteRenderer>().sprite = paperSprite;
+            }
+            else if (CardTwo.gameObject.tag == "Rock")
+            {
+                CardTwo.GetComponent<SpriteRenderer>().sprite = rockSprite;
+            }
+
             if (CardThree.gameObject.tag == "Paper")
             {
                 CardThree.GetComponent<SpriteRenderer>().sprite = paperSprite;
             }
-
+            else if (CardThree.gameObject.tag == "Scissor")
+            {
+                CardThree.GetComponent<SpriteRenderer>().sprite = scissorSprite;
+            }
+            else if (CardThree.gameObject.tag == "Rock")
+            {
+                CardThree.GetComponent<SpriteRenderer>().sprite = rockSprite;
+            }
             turnStates = TurnStates.PlayerChoice;
 
         }
@@ -309,5 +338,11 @@ public class GameManager : MonoBehaviour
 
     }
  
+
+    private void PlayerChoice()
+    {
+
+    }
+
 
 }
