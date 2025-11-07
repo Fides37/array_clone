@@ -173,6 +173,9 @@ MonoBehaviour:
   EnemyPos1: {x: -1.5, y: 3, z: 0}
   EnemyPos2: {x: 0, y: 3, z: 0}
   EnemyPos3: {x: 1.5, y: 3, z: 0}
+  rockSprite: {fileID: 21300000, guid: 2c3caafce5c2f3c48a4208f5b84eef0b, type: 3}
+  scissorSprite: {fileID: 21300000, guid: 3dd341ad803595841925cf6478abf406, type: 3}
+  paperSprite: {fileID: 21300000, guid: 8d633627e04fd494999c2b1b909543b7, type: 3}
   deck:
   - {fileID: 6431659149365280710}
   - {fileID: 1500473394}
@@ -634,6 +637,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Paper (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -2255,6 +2262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2689,6 +2700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3054,6 +3069,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Paper (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -3606,6 +3625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4056,6 +4079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4235,6 +4262,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
+      value: Paper
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
       value: Paper
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
@@ -4417,6 +4448,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Paper (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Paper
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite

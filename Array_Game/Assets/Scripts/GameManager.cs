@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
 
     private int round;
 
+    public Sprite rockSprite;
+    public Sprite scissorSprite;
+    public Sprite paperSprite;
 
 
 
@@ -34,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         Shuffle,
         DealCards,
-        RevealCards,
+        PlayerChoice,
         Compare,
         Discard
     }
@@ -74,9 +77,19 @@ public class GameManager : MonoBehaviour
                 }
                 else if (round == 3)
                 {
-                    DealCardsRoundThree();
+                    DealCardsRoundFour();
                 }
 
+                break;
+            case (TurnStates.PlayerChoice):
+
+                print("playerchoice");
+                break;
+            case (TurnStates.Compare):
+                print("compare");
+                break;
+            case (TurnStates.Discard):
+                print("discard");
                 break;
 
         }
@@ -91,8 +104,7 @@ public class GameManager : MonoBehaviour
 
         for (int cardIndex = 0; cardIndex < deck.Length; cardIndex++)
         {
-            Debug.Log(deck[cardIndex].name);
-
+   
             GameObject tempCard = deck[cardIndex];
             int newIndex = Random.Range(cardIndex, deck.Length);
             deck[cardIndex] = deck[newIndex];
@@ -101,13 +113,16 @@ public class GameManager : MonoBehaviour
 
         }
 
-        
+        turnStates = TurnStates.DealCards;
 
     }
 
     private void DealCardsRoundOne()
     {
-
+        if (round != 0)
+        {
+            return;
+        }
     
         for (int x = 0; x < deck.Length; x++)
         {
@@ -128,17 +143,17 @@ public class GameManager : MonoBehaviour
             // first round player deal 
             if (x == 3)
             {
-                
+                CardOne = deck[x];
                 deck[x].transform.DOMove(PlayerPos1, 1f).SetDelay(2f).SetEase(Ease.OutExpo);
             }
             else if (x == 4)
             {
-                deck[x] = CardTwo;
+                CardTwo = deck[x];
                 deck[x].transform.DOMove(PlayerPos2, 1f).SetDelay(2.5f).SetEase(Ease.OutExpo);
             }
             else if (x == 5)
             {
-                deck[x] = CardThree;
+                CardThree = deck[x];
                 deck[x].transform.DOMove(PlayerPos3, 1f).SetDelay(3f).SetEase(Ease.OutExpo);
             }
 
@@ -146,15 +161,36 @@ public class GameManager : MonoBehaviour
 
         if (CardThree.transform.position == PlayerPos3)
         {
-            
+            if (CardOne.gameObject.tag == "Rock")
+            {
+                Debug.Log("yo mana");
+                CardOne.GetComponent<SpriteRenderer>().sprite = rockSprite;
+            }
+            if (CardTwo.gameObject.tag == "Scissor")
+            {
+                CardTwo.GetComponent<SpriteRenderer>().sprite = scissorSprite;
+            }
+            if (CardThree.gameObject.tag == "Paper")
+            {
+                CardThree.GetComponent<SpriteRenderer>().sprite = paperSprite;
+            }
+
+            turnStates = TurnStates.PlayerChoice;
+
         }
 
-        round += 1;
+       
+        
     }
 
 
     private void DealCardsRoundTwo()
     {
+        if (round != 1)
+        {
+            return;
+        }
+        
         for (int x = 0; x < deck.Length; x++)
         {
             if (x == 6)
@@ -190,6 +226,11 @@ public class GameManager : MonoBehaviour
 
     private void DealCardsRoundThree()
     {
+        if (round != 2)
+        {
+            return;
+        }
+
         for (int x = 0; x < deck.Length; x++)
         {
             if (x == 12)
@@ -227,6 +268,11 @@ public class GameManager : MonoBehaviour
 
     private void DealCardsRoundFour()
     {
+        if (round != 3)
+        {
+            return;
+        }
+
         for (int x = 0; x < deck.Length; x++)
         {
             // fourth round enemy deal
