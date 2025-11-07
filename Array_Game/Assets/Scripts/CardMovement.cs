@@ -56,6 +56,7 @@ public class CardMovement : MonoBehaviour
     {
         endX = newEndX;
         endY = newEndY;
+       
 
         elapsed = 0;
 

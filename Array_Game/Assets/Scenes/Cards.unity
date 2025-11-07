@@ -166,16 +166,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1586a2775e19958448bd35439841b0c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPos1: {x: -2, y: 3, z: 0}
-  enemyPos2: {x: 0, y: 3, z: 0}
-  enemyPos3: {x: 2, y: 3, z: 0}
-  playerPos1: {x: -2, y: -3}
-  playerPos2: {x: 0, y: -3}
-  playerPos3: {x: 2, y: -3}
+  PlayerPos1: {x: -1.5, y: -3, z: 0}
+  PlayerPos2: {x: 0, y: -3, z: 0}
+  PlayerPos3: {x: 1.5, y: -3, z: 0}
   dealEnemy: 0
-  EnemyPos1: {x: 0, y: 0, z: 0}
-  EnemyPos2: {x: 0, y: 0, z: 0}
-  EnemyPos3: {x: 0, y: 0, z: 0}
+  EnemyPos1: {x: -1.5, y: 3, z: 0}
+  EnemyPos2: {x: 0, y: 3, z: 0}
+  EnemyPos3: {x: 1.5, y: 3, z: 0}
   deck:
   - {fileID: 6431659149365280710}
   - {fileID: 1500473394}
@@ -267,6 +264,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Rock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -448,6 +449,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Scissor (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -810,6 +815,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Rock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -1218,6 +1227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1398,6 +1411,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Scissor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -1683,6 +1700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scissor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1862,6 +1883,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
+      value: Scissor
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
       value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
@@ -2044,6 +2069,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Scissor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -2475,6 +2504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scissor (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2836,6 +2869,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Scissor (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -3199,6 +3236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3380,6 +3421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3466,9 +3511,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1500473395}
-    - targetCorrespondingSourceObject: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1500473399}
   m_SourcePrefab: {fileID: 100100000, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
 --- !u!1 &1500473394 stripped
 GameObject:
@@ -3552,23 +3594,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960460082896476769, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
   m_PrefabInstance: {fileID: 1500473393}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1500473399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500473394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a983aee9cf2a274a923eed5f946a45d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lerpDuration: 1
-  elapsed: 0
-  lerpObject: 0
-  currentXPos: -3.37
-  currentYPos: -0.01
 --- !u!1001 &1592658990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3761,6 +3786,10 @@ PrefabInstance:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
       value: Scissor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Scissor
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
@@ -4704,6 +4733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4905,6 +4938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5084,6 +5121,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
       propertyPath: m_Name
+      value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 590475791812302578, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
+      propertyPath: m_TagString
       value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 1152909144229360841, guid: 62903f688a57c224eb562e18f17039e7, type: 3}
